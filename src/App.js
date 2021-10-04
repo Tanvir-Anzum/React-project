@@ -8,6 +8,7 @@ import Services from './components/Services/Services'
 import Header from './components/Header/Header'
 import COntact from './components/Contact/COntact'
 import About from './components/About/About'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <NOtFound></NOtFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </BrowserRouter>
   )
 }

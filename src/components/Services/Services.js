@@ -10,7 +10,7 @@ const Services = () => {
    }, [])
  return (
   
-     <div className="allServices">
+     <div className="allService">
       {services.map((service) => (
         <TakingServices ser={service}></TakingServices>
       ))}

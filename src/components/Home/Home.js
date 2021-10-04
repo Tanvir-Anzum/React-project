@@ -10,43 +10,54 @@ const Home = (props) => {
       .then((data) => setServices(data))
   }, [])
  return (
-   <div>
+   <div className='d-flex'>
      <div className='allServices'>
        {services.slice(0, 4).map((service) => (
          <TakingHome ser={service}></TakingHome>
        ))}
      </div>
-   <div className="contains">
-     <div className='footer'>
-       <div className='textElement'>
-         <h2 className="header-two">NEWSLETTER</h2>
-       </div>
-       <div class='input-group w-50'>
+     <div className='mt-5 pt-5'>
+       <div class='input-group mb-3'>
+         <button
+           class='btn btn-primary'
+           type='button'
+           id='button-addon1'
+         >
+           Choose
+         </button>
          <input
            type='text'
            class='form-control'
-           aria-label='Dollar amount (with dot and two decimal places)'
+           placeholder='Choose Your Ser vi vce'
+           aria-label=''
+           aria-describedby='button-addon1'
          ></input>
+       </div>
 
-         <button type='button' class='btn btn-primary btn-lg'>
-           Large button
+       <div class='input-group mb-3'>
+         <input
+           type='text'
+           class='form-control'
+           placeholder='Choose Branch'
+           aria-label="Recipient's username"
+           aria-describedby='button-addon2'
+         ></input>
+         <button class='btn btn-primary' type='button' id='button-addon2'>
+           Choose
          </button>
-         </div>
-         </div>
-         </div>
-         <div className="lowerPart">
-          <div className="pt-5 links">
-           <h3>Quick Links</h3>
-           <ul>
-             <li>Home</li>
-             <li>About</li>
-           </ul>
-           </div>
-           <div className="pt-5 phone">
-             <h3>Call Us</h3>
-             <h5>( 0242 ) 9240233</h5>
-             <h5>( 0244 ) 9240233</h5>
-           </div>
+       </div>
+
+       <div class='input-group mb-3'>
+         <button class='btn btn-primary' type='button'>
+           Enroll
+         </button>
+         <input
+           type='text'
+           class='form-control'
+           placeholder='Click Here to Enroll'
+           aria-label='Example text with two button addons'
+         ></input>
+       </div>
      </div>
    </div>
  )

@@ -9,6 +9,8 @@
 .parent{
  display: flex;
  justify-content: center;
+ margin-top: 138px;
+ margin-bottom: 138px;
 }
 .first{
  text-align: center;

@@ -26,10 +26,15 @@ const Header = () => {
                <a class='nav-link active' aria-current='page' href='Services'>
                  Services
                </a>
+               </li>
+             <li class='nav-item'>
+               <a class='nav-link active' aria-current='page' href='About'>
+                 About
+               </a>
              </li>
              <li class='nav-item'>
-               <a class='nav-link active' aria-current='page' href='NotFound'>
-                 NotFound
+               <a class='nav-link active' aria-current='page' href='COntact'>
+                 Contact
                </a>
              </li>
            </ul>
@@ -52,8 +57,6 @@ const Header = () => {
        alt=''
      />
    </div>
-
-
  )
 };
 

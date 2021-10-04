@@ -1,0 +1,6 @@
+.allService{
+  margin-left: 530px; 
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+ 
+}

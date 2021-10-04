@@ -24,9 +24,3 @@ h4{
  margin-top: 4px;
  margin-bottom: 4px;
 }
-.allServices{
-  margin-left: 530px;
-  display: grid;
-  grid-template-columns: repeat(2, 420px);
- 
-}
