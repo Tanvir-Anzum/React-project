@@ -1,0 +1,26 @@
+.location{
+ width: 200px;
+ height: 130px;
+}
+
+.segment{
+ text-align: center;
+}
+.parent{
+ display: flex;
+ justify-content: center;
+}
+.first{
+ text-align: center;
+}
+.first h3{
+ margin-top: 28px;
+}
+#phone,#mail{
+ margin-top: 20px;
+ width: 100px;
+ height: 80px;
+}
+#mail{
+color: white;
+}

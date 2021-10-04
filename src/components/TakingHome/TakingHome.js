@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../Home/Home';
+import './takingHome.css'
 const TakingHome = (props) => {
  const { background, fee, text, period, program, students } = props.ser
  return (
@@ -7,11 +7,11 @@ const TakingHome = (props) => {
      <div className='service'>
        <img src={background} alt='' />
        <h2>{program}</h2>
-       <h4>{fee}</h4>
-       <h4>{text}</h4>
-       <h4>{period}</h4>
-       <h4>{fee}</h4>
-       <h4>{students}</h4>
+       <h6>{fee}</h6>
+       <h6>{text}</h6>
+       <h6>{period}</h6>
+       <h6>{fee}</h6>
+       <h6>{students}</h6>
      </div>
    </div>
  )

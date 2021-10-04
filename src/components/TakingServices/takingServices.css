@@ -6,8 +6,8 @@ img{
 .service{
  width: 365px;
  word-wrap: break-word;
- background-color: rgb(7, 5, 5);
- height: 275px;
+ background-color: rgb(250, 246, 246);
+ height: 430px;
  margin-top: 24px;
 }
 /* h2,h4{
@@ -21,7 +21,12 @@ h2{
  margin-bottom: 7px;
 }
 h4{
- 
  margin-top: 4px;
  margin-bottom: 4px;
+}
+.allServices{
+  margin-left: 530px;
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+ 
 }

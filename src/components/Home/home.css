@@ -1,24 +1,44 @@
-img{
- width: 365px;
- height: 200px;
+.allServices{
+  margin-left: 530px;
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
 }
-.service{
- width: 365px;
- word-wrap: break-word;
- background-color: rgb(250, 246, 246);
- margin-top: 24px;
+.contains{
+  background-color:red;
+  height: 120px;
+  
 }
-/* h2,h4{
- margin-top: 0;
- margin-bottom: 0;
- padding-top: 0;
- padding-bottom: 0;
-} */
-h2{
- margin-top: 7px;
- margin-bottom: 7px;
+.header-two{
+  margin-top: 50px;
+  margin-right: 20px;
 }
-h4{
- margin-top: 4px;
- margin-bottom: 4px;
+.input-group{
+  margin-top: 35px;
+}
+
+.footer{
+  margin-top: 30px;
+  margin-left: 400px;
+
+  display: flex;
+}
+.textElement{
+  width: 30%;
+}
+.high{
+  height: 30px;
+}
+.lowerPart{
+  background-color: black;
+  height: 170px;
+  color: white;
+  margin-bottom: 0;
+  display: flex;
+}
+.links{
+  margin-left: 450px;
+}
+.phone{
+  margin-left: 500px;
+  color: aliceblue;
 }

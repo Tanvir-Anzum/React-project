@@ -1,5 +1,0 @@
-.allServices{
-  margin-left: 30px;
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
-}

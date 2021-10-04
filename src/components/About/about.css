@@ -1,0 +1,18 @@
+.main{
+ display: flex;
+}
+h1{
+ font-size: 60px;
+}
+#kid{
+ margin-left: 500px;
+ margin-top: 60px;
+ width: 400px;
+ height: 600px;
+ border-radius: 10px;
+}
+.points{
+ width: 480px;
+ margin-top: 60px;
+ margin-left: 30px;
+}
