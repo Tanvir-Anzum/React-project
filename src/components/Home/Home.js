@@ -10,54 +10,70 @@ const Home = (props) => {
       .then((data) => setServices(data))
   }, [])
  return (
-   <div className='d-flex'>
+  //  the following part consists of two parts : 1.the cards(every card shows a particular service) and 2. A form to get in touch with us
+   <div>
      <div className='allServices'>
        {services.slice(0, 4).map((service) => (
          <TakingHome ser={service}></TakingHome>
        ))}
      </div>
-     <div className='mt-5 pt-5'>
-       <div class='input-group mb-3'>
-         <button
-           class='btn btn-primary'
-           type='button'
-           id='button-addon1'
-         >
-           Choose
-         </button>
-         <input
-           type='text'
-           class='form-control'
-           placeholder='Choose Your Ser vi vce'
-           aria-label=''
-           aria-describedby='button-addon1'
-         ></input>
-       </div>
 
-       <div class='input-group mb-3'>
-         <input
-           type='text'
-           class='form-control'
-           placeholder='Choose Branch'
-           aria-label="Recipient's username"
-           aria-describedby='button-addon2'
-         ></input>
-         <button class='btn btn-primary' type='button' id='button-addon2'>
-           Choose
-         </button>
+   {/* Form starts here */}
+     <div className='rightPart'>
+       <h1>Stay Connected</h1>
+       <div className='d-flex'>
+         <div class='input-group input-group-lg w-50'>
+           <input
+             type='text'
+             class='form-control'
+             aria-label='Sizing example input'
+             aria-describedby='inputGroup-sizing-lg'
+             placeholder='First-name'
+           ></input>
+         </div>
+         <div class='input-group input-group-lg w-50 mx-3'>
+           <input
+             type='text'
+             class='form-control'
+             aria-label='Sizing example input'
+             aria-describedby='inputGroup-sizing-lg'
+             placeholder='Last-name'
+           ></input>
+         </div>
        </div>
-
-       <div class='input-group mb-3'>
-         <button class='btn btn-primary' type='button'>
-           Enroll
-         </button>
-         <input
-           type='text'
-           class='form-control'
-           placeholder='Click Here to Enroll'
-           aria-label='Example text with two button addons'
-         ></input>
+       <div className='d-flex'>
+         <div class='input-group input-group-lg w-50'>
+           <input
+             type='text'
+             class='form-control'
+             aria-label='Sizing example input'
+             aria-describedby='inputGroup-sizing-lg'
+             placeholder='E-mail address'
+           ></input>
+         </div>
+         <div class='input-group input-group-lg w-50 mx-3'>
+           <input
+             type='text'
+             class='form-control'
+             aria-label='Sizing example input'
+             aria-describedby='inputGroup-sizing-lg'
+             placeholder='Phone'
+           ></input>
+         </div>
        </div>
+       <div className='form-floating mt-4'>
+         <textarea
+           class='form-control '
+           placeholder='Leave a comment here'
+           id='textAreaSize'
+         ></textarea>
+         <label for='floatingTextarea2'>Comments</label>
+       </div>
+     <div className="d-grid mt-3">
+       <button type='button' class='btn button btn-lg'>
+         SUBMIT
+       </button>
+     </div>
      </div>
    </div>
  )

@@ -7,8 +7,8 @@ import {faPhoneSquareAlt, faEnvelope,
 import './contact.css'
 const COntact = () => {
 
-
  return (
+  //  works on contact information
    <div className='parent'>
      <div className='segment first p-3'>
        <span>

@@ -2,6 +2,8 @@ import React from 'react';
 import './footer.css'
 const Footer = () => {
  return (
+  //  This component works as the footer
+  // Divided in two parts
    <div>
      <div className='contains'>
        <div className='footer'>

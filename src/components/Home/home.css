@@ -1,5 +1,25 @@
+
+.parent{
+  
+  margin-left: 0px;
+}
  .allServices {
-  margin-left: 350px;
+  position: relative;
   display: grid;
   grid-template-columns: repeat(2, 420px);
+  margin-left: 150px;
 } 
+.rightPart{
+  position: absolute;
+  left : 1100px;
+  top: 250px;
+  padding: 60px;
+  background-color: #fffaee;
+  border: 1px solid #ffb607;
+}
+#textAreaSize{
+  height: 180px;
+}
+.button{
+  background-color: #ffb607;
+}

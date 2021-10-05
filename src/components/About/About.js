@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css'
 const About = () => {
  return (
+  //  A brief Description of our school is generate here
    <div className='main'>
      <div>
        <img

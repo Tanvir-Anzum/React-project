@@ -10,6 +10,7 @@ const Services = () => {
    }, [])
  return (
   
+  // This component shows all the cards(or services)
      <div className="allService">
       {services.map((service) => (
         <TakingServices ser={service}></TakingServices>

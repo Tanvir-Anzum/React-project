@@ -5,6 +5,7 @@ import './header.css'
 const Header = () => {
  return (
    <div>
+  
      <nav class='navbar navbar-expand-lg navbar-light bg-light'>
        <div class='container-fluid'>
          <button
@@ -53,6 +54,7 @@ const Header = () => {
          </div>
        </div>
      </nav>
+
      <img
        src='https://images.unsplash.com/photo-1541535193313-a132e126fb1c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1471&q=80'
        alt=''

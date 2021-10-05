@@ -4,15 +4,15 @@ const TakingServices = (props) => {
  const { background, fee, text, period, program, students } = props.ser
  return (
    <div>
-     <div>
-       <div className='service'>
-         <img id="image" src={background} alt='' />
-         <h2>{program}</h2>
-         <h6>{fee}</h6>
-         <h6>{text}</h6>
-         <h6>{period}</h6>
-         <h6>{fee}</h6>
-         <h6>{students}</h6>
+     <div className='service'>
+       <img id='pic' src={background} alt='' />
+       <h3 className='ms-3'>Program : {program}</h3>
+       <p className='ms-3'>{text}</p>
+       <p className='ms-3'>Period : {period}</p>
+       <hr />
+       <div className='d-flex'>
+         <h6 className='ms-3'>Students : {students}</h6>
+         <h6 className='ms-3'>Fee : {fee}</h6>
        </div>
      </div>
    </div>
