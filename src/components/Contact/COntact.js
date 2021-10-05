@@ -1,31 +1,46 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faCoffee, faMap} from '@fortawesome/free-solid-svg-icons'
+import {faPhoneSquareAlt, faEnvelope,
+  faMapMarkerAlt, faClock} from '@fortawesome/free-solid-svg-icons'
 import './contact.css'
 const COntact = () => {
-const element = <FontAwesomeIcon icon={faMap} />
+
+
  return (
    <div className='parent'>
-     <div className='first'>
-       <img
-         id='phone'
-         src='https://cdn-icons-png.flaticon.com/512/3616/3616215.png'
-         alt=''
-       />
+     <div className='segment first p-3'>
+       <span>
+         <FontAwesomeIcon id='phone' icon={faPhoneSquareAlt} />
+       </span>
        <h3>Call us</h3>
        <h4>( 0544 ) 8435803</h4>
        <h4>( 0384) 2742681</h4>
      </div>
-     <div className='segment'>
-       <img
-         className='location'
-         src='https://media.istockphoto.com/photos/red-map-pointer-isolated-on-white-background-picture-id1182235539?b=1&k=20&m=1182235539&s=170667a&w=0&h=_lwpU3YmqsgIhaDlbPtnWeIzmJovYJMvJyjs_2hR5Wg='
-         alt=''
-       />
+     <div className='segment second p-3'>
+       <span>
+         <FontAwesomeIcon id='location' icon={faMapMarkerAlt} />
+       </span>
        <h3>Address</h3>
        <h4>400 Niazpur</h4>
        <h4>231 Syhlet 234</h4>
+     </div>
+     <div className='segment third p-3'>
+       <span>
+         <FontAwesomeIcon id='mail' className='mail' icon={faEnvelope} />
+       </span>
+       <h3>Mail Us</h3>
+       <h4>info@funschool.com</h4>
+       <h4>info@ourschool.com</h4>
+     </div>
+     <div className='segment fourth p-3'>
+       <span>
+         <FontAwesomeIcon id='openHours' icon={faClock} />
+       </span>
+       <h3>Open Hours</h3>
+       <h4>Sat to Thu</h4>
+       <h4>Fri : closed</h4>
      </div>
    </div>
  )

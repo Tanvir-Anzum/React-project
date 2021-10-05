@@ -13,10 +13,11 @@ const Footer = () => {
              type='text'
              class='form-control'
              aria-label='Dollar amount (with dot and two decimal places)'
+             placeholder="E-mail Address"
            ></input>
 
            <button type='button' class='btn btn-primary btn-lg'>
-             Large button
+             Sign Up
            </button>
          </div>
        </div>

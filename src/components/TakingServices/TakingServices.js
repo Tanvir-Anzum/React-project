@@ -6,7 +6,7 @@ const TakingServices = (props) => {
    <div>
      <div>
        <div className='service'>
-         <img src={background} alt='' />
+         <img id="image" src={background} alt='' />
          <h2>{program}</h2>
          <h6>{fee}</h6>
          <h6>{text}</h6>

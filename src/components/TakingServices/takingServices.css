@@ -1,13 +1,16 @@
 img{
  width: 365px;
- height: 200px;
+ height: 300px;
+}
+#image{
+ height: 220px;
 }
 
 .service{
  width: 365px;
  word-wrap: break-word;
  background-color: rgb(250, 246, 246);
- height: 430px;
+ height: 450px;
  margin-top: 24px;
 }
 /* h2,h4{

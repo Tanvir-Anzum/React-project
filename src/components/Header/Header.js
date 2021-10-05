@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 import './header.css'
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"></link>
 const Header = () => {
@@ -18,24 +19,24 @@ const Header = () => {
            <span class='navbar-toggler-icon'></span>
          </button>
          <div class='collapse navbar-collapse' id='navbarTogglerDemo01'>
-           <a class='navbar-brand' href='Home'>
+           <Link to='/Home' className='navbar-brand'>
              Home
-           </a>
+           </Link>
            <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
              <li class='nav-item'>
-               <a class='nav-link active' aria-current='page' href='Services'>
+               <Link to='Services' className='nav-link active'>
                  Services
-               </a>
-               </li>
-             <li class='nav-item'>
-               <a class='nav-link active' aria-current='page' href='About'>
-                 About
-               </a>
+               </Link>
              </li>
              <li class='nav-item'>
-               <a class='nav-link active' aria-current='page' href='COntact'>
+               <Link to='About' className='nav-link active'>
+                 About
+               </Link>
+             </li>
+             <li class='nav-item'>
+               <Link to='COntact'  className='nav-link active'>
                  Contact
-               </a>
+               </Link>
              </li>
            </ul>
            <form class='d-flex'>

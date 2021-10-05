@@ -5,7 +5,7 @@ const TakingHome = (props) => {
  return (
    <div>
      <div className='service'>
-       <img src={background} alt='' />
+       <img id="pic" src={background} alt='' />
        <h2>{program}</h2>
        <h6>{fee}</h6>
        <h6>{text}</h6>

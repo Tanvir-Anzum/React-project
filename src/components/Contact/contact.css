@@ -1,10 +1,13 @@
-.location{
- width: 200px;
- height: 130px;
+#location,#phone,#mail,#openHours{
+ width: 140px;
+ height: 90px;
+ color: red;
 }
 
 .segment{
  text-align: center;
+ margin: 30px;
+ width: 250px;
 }
 .parent{
  display: flex;
@@ -12,17 +15,7 @@
  margin-top: 138px;
  margin-bottom: 138px;
 }
-.first{
+.first,.second,.third,.fourth{
  text-align: center;
-}
-.first h3{
- margin-top: 28px;
-}
-#phone,#mail{
- margin-top: 20px;
- width: 100px;
- height: 80px;
-}
-#mail{
-color: white;
+ background-color: rgba(235, 224, 224, 0.342);
 }
