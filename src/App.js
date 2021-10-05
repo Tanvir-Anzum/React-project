@@ -16,16 +16,16 @@ function App() {
     <BrowserRouter>
       <Header></Header>
       <Switch>
-        <Route path='/Home'>
+        <Route exact path='/Home'>
           <Home></Home>
         </Route>
         <Route exact path='/Services'>
           <Services></Services>
         </Route>
-        <Route path='/Contact'>
+        <Route exact path='/Contact'>
           <COntact></COntact>
         </Route>
-        <Route path='/About'>
+        <Route exact path='/About'>
           <About></About>
         </Route>
         <Route exact path='/'>
