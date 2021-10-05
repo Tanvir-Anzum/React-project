@@ -13,7 +13,7 @@
   position: absolute;
   left : 1100px;
   top: 250px;
-  padding: 60px;
+  padding: 40px;
   background-color: #fffaee;
   border: 1px solid #ffb607;
 }
@@ -22,4 +22,5 @@
 }
 .button{
   background-color: #ffb607;
+  border-radius: 50px;
 }

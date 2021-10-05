@@ -20,7 +20,7 @@ const Home = (props) => {
 
    {/* Form starts here */}
      <div className='rightPart'>
-       <h1>Stay Connected</h1>
+       <h3>Stay Connected</h3>
        <div className='d-flex'>
          <div class='input-group input-group-lg w-50'>
            <input
