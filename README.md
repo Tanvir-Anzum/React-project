@@ -1,3 +1,5 @@
+                       OUR SCHOOL PROVIDES QUALITY EDUCATION 
+
 This website gives an idea about how our school works....
 
 => General idea of our school is given
