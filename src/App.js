@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
+    // All th routes are defined below
     <BrowserRouter>
       <Header></Header>
       <Switch>

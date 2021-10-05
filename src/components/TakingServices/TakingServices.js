@@ -3,7 +3,8 @@ import './takingServices.css'
 const TakingServices = (props) => {
  const { background, fee, text, period, program, students } = props.ser
  return (
-   <div>
+  //  This component shows a single card
+  <div>
      <div className='service'>
        <img id='pic' src={background} alt='' />
        <h3 className='ms-3'>Program : {program}</h3>

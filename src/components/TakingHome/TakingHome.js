@@ -3,6 +3,7 @@ import './takingHome.css'
 const TakingHome = (props) => {
  const { background, fee, text, period, program, students } = props.ser
  return (
+  //  the way cards will be shown in the UI is defined here
    <div>
      <div className='service'>
        <img id='pic' src={background} alt='' />
